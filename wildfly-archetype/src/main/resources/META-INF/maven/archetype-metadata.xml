@@ -6,7 +6,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <requiredProperties>
         <requiredProperty key="wildfly-version">
-            <defaultValue>20.0.0.Final</defaultValue>
+            <defaultValue>20.0.1.Final</defaultValue>
         </requiredProperty>
     </requiredProperties>
 

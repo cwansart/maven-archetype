@@ -116,7 +116,7 @@ The wildfly-archetype contains a RESTful hello world application, which demonstr
 | archetype-version   | 1.0                         |
 
 
-Currently the archetype generates projects with Wildfly `20.0.0.Final` by default. The version may be overridden by setting the property `-Dwildfly-version=<wildfly-version>` 
+Currently the archetype generates projects with Wildfly `20.0.1.Final` by default. The version may be overridden by setting the property `-Dwildfly-version=<wildfly-version>` 
 
 To create a project based on the archetype:
 ```shell script
@@ -127,7 +127,7 @@ $ mvn archetype:generate -B -DarchetypeCatalog=local
                             -DartifactId=looney
                             -Dversion=1.0-SNAPSHOT
                             -Dpackage=org.acme.looney
-                            -Dwildfly-version=20.0.0.Final
+                            -Dwildfly-version=20.0.1.Final
 ```
 
 Afterwards you can build the project and run the tests: 
